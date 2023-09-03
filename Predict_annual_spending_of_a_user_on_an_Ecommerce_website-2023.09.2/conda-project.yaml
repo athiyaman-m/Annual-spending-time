@@ -1,0 +1,11 @@
+name: Predict annual spending of a user on an Ecommerce website
+maintainers:
+- 979a6c94-e710-40a4-bff4-2941e868d6c6
+platforms:
+- linux-64
+environments:
+  default:
+  - environment.yaml
+commands:
+  serve:
+    cmd: panel serve Spending_time_of_user.ipynb
